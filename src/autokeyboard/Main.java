@@ -43,7 +43,7 @@ public class Main {
 		
 		timetext.setPreferredSize(new Dimension(50, 20));
 		
-		String[] eingaben={"NUM1","NUM2","NUM3","NUM4","NUM5","NUM6", "E", "Q", "F"};
+		String[] eingaben={"NUM1","NUM2","NUM3","NUM4","NUM5","NUM6", "E", "Q", "F", "G"};
 		
 		JComboBox<String> keys = new JComboBox<>(eingaben);
 		
@@ -123,6 +123,10 @@ public class Main {
 					break;
 				}
 						
+				case "G":{
+					keynumber=KeyEvent.VK_G;
+					break;
+				}
 				
 				}
 				
