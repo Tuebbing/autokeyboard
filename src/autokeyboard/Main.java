@@ -128,6 +128,11 @@ public class Main {
 					break;
 				}
 				
+				case "N":{
+					keynumber=KeyEvent.VK_N;
+					break;
+				}
+				
 				}
 				
 				timer.scheduleAtFixedRate(new TimerTask() {
