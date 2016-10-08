@@ -43,7 +43,7 @@ public class Main {
 		
 		timetext.setPreferredSize(new Dimension(50, 20));
 		
-		String[] eingaben={"NUM1","NUM2","NUM3","NUM4","NUM5","NUM6", "E", "Q", "F", "G"};
+		String[] eingaben={"NUM1","NUM2","NUM3","NUM4","NUM5","NUM6", "E", "Q", "F", "G","N"};
 		
 		JComboBox<String> keys = new JComboBox<>(eingaben);
 		
